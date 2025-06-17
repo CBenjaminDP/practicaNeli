@@ -8,10 +8,29 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(45deg, #6b48ff, #ff4848);
+    background: linear-gradient(45deg, #2c3e50, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos para la página principal */
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.profiles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+}
+
 .card {
     background: rgba(255, 255, 255, 0.9);
     padding: 2rem;
@@ -54,13 +73,13 @@ body {
 .card .icon {
     font-size: 2rem;
     margin-top: 1rem;
-    color: #6b48ff;
+    color: #3498db;
 }
 
-/* Estilos para las páginas de perfil */
+/* Estilos para la página de perfil */
 .profile-container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 2rem auto;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     padding: 2rem;
@@ -74,8 +93,8 @@ body {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin: 0 auto 1rem;
     display: block;
@@ -97,10 +116,13 @@ body {
 
 .section {
     margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1.5rem;
+    border-radius: 15px;
 }
 
 .section h2 {
-    color: #6b48ff;
+    color: #3498db;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -108,12 +130,13 @@ body {
 .section p {
     color: #666;
     line-height: 1.6;
+    margin-bottom: 0.5rem;
 }
 
 .back-button {
     display: inline-block;
     padding: 0.8rem 1.5rem;
-    background: #6b48ff;
+    background: #3498db;
     color: white;
     text-decoration: none;
     border-radius: 10px;
@@ -122,21 +145,5 @@ body {
 
 .back-button:hover {
     transform: translateY(-3px);
-}
-
-/* Estilos para la página principal */
-.main-container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
-.profiles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
-    width: 100%;
+    background: #2980b9;
 } 
