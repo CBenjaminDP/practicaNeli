@@ -8,9 +8,7 @@ El sistema consiste en una pantalla de inicio con el nombre del equipo y enlaces
 
 ## 👥 Integrantes del equipo
 
-- Edson Jacob C. Díaz Bollas
-- María López García
-- Juan Rodríguez Torres
+- Carlos Benjamin Diaz Pedroza
 
 ---
 
